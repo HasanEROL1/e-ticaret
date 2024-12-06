@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Basket Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- BoxIcon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- * header -->
+    <header>
+        <div class="nav container">
+            <!-- menu icon -->
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <!-- logo -->
+            <a href="index.html" class="logo">COSTY</a>
+
+            <nav class="navbar open-menu">
+                <a href="#" class="nav-link">Woman</a>
+                <a href="#" class="nav-link">Man</a>
+                <a href="#" class="nav-link">Kids</a>
+                <a href="#" class="nav-link">Accessories</a>
+            </nav>
+
+            <!-- CART -->
+            <a href="cart.html" id="cart-icon"> <i class="bx bxs-shopping-bag" data-quantity="0"></i></a>
+
+        </div>
+    </header>
+    <!-- -CArd Content -->
+
+    <section class="container cart-container">
+        <!-- *Back To Home -->
+        <a href="/index.html" class="back-to-home">
+            <i class='bx bx-chevron-left'></i>
+            <span>Back To Home</span>
+        </a>
+        <!-- Title -->
+
+        <h2 class="shopping-cart">Shopping Cart</h2>
+
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems">
+                    <!-- <div class="cart-item">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.dSqrHEm2JkzhjXItj98veQHaJ3&w=474&h=474&c=7.png"
+                            alt="Product">
+                             <div class="cart-item-info">
+                            <h2 class="cart-item-title">Product Name</h2>
+                            <input type="number" min="1" value="1" class="cart-item-quantity">
+                        </div>
+                        <h2 class="cart-item-price">$80</h2>
+                        <button class="remove-from-cart">Remove</button>
+                    </div> -->
+
+
+                </div>
+            </div>
+            <div class="cart-t"></div>
+            <div id="cartTotal">Total: $100</div>
+            <a href="#" class="checkout-btn" id="checkout-btn">Checkout</a>
+            
+        
+        </div>
+    </section>
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
